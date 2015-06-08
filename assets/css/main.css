@@ -36,10 +36,11 @@ body{
 	height:400px;
 	border: 2px solid #d55f64;
 
-	border-top-left-radius: 100%;
-	border-top-right-radius: 100%;
-	border-bottom-left-radius: 100%;
-	border-bottom-right-radius: 100%;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+  -khtml-border-radius: 200px;
+  border-radius: 200px;
+
 
 	background:url('../images/grad.jpg') no-repeat;
 
