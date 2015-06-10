@@ -87,32 +87,22 @@ body{
   left: 50%;
   transform: translate(-50%, 0%);
 }
-.navbar-default{
-	background-color: #c43339;
-	border-color:#000;
-}
-.navbar-collapse, .navbar-form{
-	border-color:#000;
-}
 
-.nav-d > li > a {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
+.nav-d{
+	background-color: #c43339
+	color: #fff;
+	border-radius: : 0;
 }
-.nav-d > li > a:hover,
-.nav-d > li > a:focus {
-  text-decoration: none;
-  background-color: #eee;
+.nav-d .navbar-nav >.active a, .active > a:hover, .navbar-nav > .active > a:focus {
+	color: #ffffff;
+  background-color:transparent;
 }
 
 footer{
 	padding-top: 60px;
 }
 .custom-footer{
-
 	border-top : 2px solid #808080 ;
-
 }
 .custom-footer .container{
 	position:relative;
